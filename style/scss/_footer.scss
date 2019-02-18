@@ -1,0 +1,50 @@
+.footer {
+  background: url("../../images/footer-bg.png") no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+  input {
+    color: white;
+    background: none;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid darken(white,50);
+  }
+  textarea {
+    color: white;
+    font-size: 14px;
+    background: none;
+    padding: 5px;
+  }
+}
+
+.submit {
+  cursor: pointer;
+  border: none !important;
+  background: $footer-btn-color !important;
+  font-family: "Gotham-Pro";
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 30px !important;
+}
+
+.footer-map {
+  background: url("../../images/footer-map.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.footer-end {
+  background-color: #222222;
+  height: 75px;
+
+  h4 {
+    font-size: 14px;
+    color: white !important;
+    font-family: "Gotham-Book";
+  }
+}

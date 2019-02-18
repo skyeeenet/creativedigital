@@ -1,0 +1,90 @@
+.header {
+  background: url("../../images/header-bg.png");
+  height: 100vh;
+
+  h1, h3 {
+    color: $header-logo-color;
+  }
+
+  h1 {
+    font-size: 152px;
+  }
+
+  h2 {
+    color: $header-under-logo-color;
+    font-size: 24px;
+  }
+
+  small {
+    color: $header-logo-color;
+  }
+}
+
+.header-line {
+  border-bottom: 1px solid $header-line-color;
+  width: 100%;
+}
+
+.nav-item {
+
+  a {
+    color: $header-navbar-color !important;
+    font-size: 18px;
+    margin-right: 20px;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 100%;
+      background-color: $header-active-color;
+      transform: translateY(35px) scale(0);
+      transition: .2s;
+    }
+    &:hover {
+
+      &:after {
+        transform: translateY(35px) scale(1);
+      }
+    }
+  }
+}
+
+.active {
+
+  a {
+    &:after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 100%;
+      background-color: $header-active-color;
+      transform: translateY(35px) scale(1);
+      transition: .2s;
+    }
+  }
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.social-icons {
+
+  a {
+    margin-left: 20px;
+  }
+}
+
+.scroll-down {
+
+  a {
+    transition: .5s;
+  }
+
+  a:hover {
+    transition: 1s;
+    transform: translateY(20px);
+  }
+}

@@ -1,0 +1,23 @@
+@font-face{
+  font-family: 'Gotham-Pro';
+  src: url('../../fonts/GothamPro.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Gotham-Book';
+  src: url('../../fonts/Gotham-book.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  color: black;
+  font-weight: 600;
+  font-family: "Gotham-Book";
+}
+
+.color-white {
+  color: white !important;
+}

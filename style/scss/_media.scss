@@ -1,0 +1,50 @@
+@media screen and (max-width: 992px) {
+
+  .nav-item {
+
+    a {
+
+      &:after {
+        display: none;
+      }
+      &:hover {
+
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .social-icons {
+
+    a {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  }
+
+  .active {
+    a {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .header-title {
+    font-size: 80px !important;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .header-title {
+    font-size: 40px !important;
+  }
+
+  .under-title {
+    font-size: 18px !important;
+  }
+}
